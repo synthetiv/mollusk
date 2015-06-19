@@ -1,11 +1,9 @@
 " Vim color file
 "
-" Author: Tomas Restrepo <tomas@winterdom.com>
-" https://github.com/tomasr/molokai
+" Author: Kenji Garland
 "
-" Note: Based on the Monokai theme for TextMate
-" by Wimer Hazenberg and its darker variant
-" by Hamish Stuart Macpherson
+" Based: (very heavily!) on Molokai by Tomas Restrepo <tomas@winterdom.com>
+" https://github.com/tomasr/molokai
 "
 
 hi clear
@@ -18,13 +16,7 @@ if version > 580
         syntax reset
     endif
 endif
-let g:colors_name="molokai"
-
-if exists("g:molokai_original")
-    let s:molokai_original = g:molokai_original
-else
-    let s:molokai_original = 0
-endif
+let g:colors_name="mollusk"
 
 
 if &t_Co > 255
@@ -45,7 +37,7 @@ if &t_Co > 255
    hi DiffAdd                     ctermbg=19
    hi DiffChange                  ctermbg=17
    hi DiffDelete      ctermfg=89  ctermbg=0
-   hi DiffText                    ctermbg=19  cterm=bold
+   hi DiffText                    ctermbg=19    cterm=bold
 
    hi Directory       ctermfg=118               cterm=bold
    hi Error           ctermfg=231 ctermbg=197

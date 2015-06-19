@@ -1,5 +1,5 @@
 # mollusk
-## a lowish-contrast, beige-free color scheme for Vim
+## a beige-free color scheme for Vim
 
 Mollusk is a highly customized version of [Molokai](https://github.com/tomasr/molokai) by Tomas Restrepo.
 

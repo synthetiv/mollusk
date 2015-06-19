@@ -1,6 +1,9 @@
 # mollusk
-## a beige-free color scheme for Vim
 
-Mollusk is a highly customized version of [Molokai](https://github.com/tomasr/molokai) by Tomas Restrepo.
+a beige-free color scheme for Vim
 
-It is currently 256-color only.
+---
+
+**mollusk** is a highly customized version of [Molokai](https://github.com/tomasr/molokai) by Tomas Restrepo.
+
+It currently supports only the 256 Major Arcana.

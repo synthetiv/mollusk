@@ -86,7 +86,7 @@ if &t_Co > 255
    hi Statement       ctermfg=161               cterm=bold
    hi StatusLine      ctermfg=238 ctermbg=253
    hi StatusLineNC    ctermfg=244 ctermbg=232
-   hi StorageClass    ctermfg=27
+   hi StorageClass    ctermfg=33
    hi Structure       ctermfg=81
    hi Tag             ctermfg=161
    hi Title           ctermfg=51

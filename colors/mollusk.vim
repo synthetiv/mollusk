@@ -84,10 +84,13 @@ if &t_Co > 255
        hi SpellRare   ctermfg=169 ctermbg=none  cterm=underline
    endif
    hi Statement       ctermfg=161               cterm=bold
-   hi StatusLine      ctermfg=238 ctermbg=253
-   hi StatusLineNC    ctermfg=244 ctermbg=232
+   hi StatusLine      ctermfg=253 ctermbg=237   cterm=none
+   hi StatusLineNC    ctermfg=242 ctermbg=235   cterm=none
    hi StorageClass    ctermfg=33
    hi Structure       ctermfg=81
+   hi TabLine         ctermfg=242 ctermbg=235   cterm=underline
+   hi TabLineSel      ctermfg=253 ctermbg=238   cterm=none
+   hi TabLineFill     ctermfg=237 ctermbg=235   cterm=underline
    hi Tag             ctermfg=161
    hi Title           ctermfg=51
    hi Todo            ctermfg=231 ctermbg=none  cterm=bold
@@ -96,7 +99,7 @@ if &t_Co > 255
    hi Type            ctermfg=81                cterm=none
    hi Underlined      ctermfg=244               cterm=underline
 
-   hi VertSplit       ctermfg=244 ctermbg=232   cterm=bold
+   hi VertSplit       ctermfg=234 ctermbg=none  cterm=bold
    hi VisualNOS                   ctermbg=239
    hi Visual                      ctermbg=239
    hi WarningMsg      ctermfg=231 ctermbg=238   cterm=bold

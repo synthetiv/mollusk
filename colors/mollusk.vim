@@ -78,10 +78,10 @@ if &t_Co > 255
    hi SpecialComment  ctermfg=245               cterm=bold
    hi Special         ctermfg=81
    if has("spell")
-       hi SpellBad                ctermbg=53
-       hi SpellCap                ctermbg=17
-       hi SpellLocal              ctermbg=17
-       hi SpellRare  ctermfg=none ctermbg=none  cterm=reverse
+       hi SpellBad    ctermfg=169 ctermbg=none  cterm=underline
+       hi SpellCap   ctermfg=none ctermbg=none  cterm=none
+       hi SpellLocal  ctermfg=169 ctermbg=none  cterm=underline
+       hi SpellRare   ctermfg=169 ctermbg=none  cterm=underline
    endif
    hi Statement       ctermfg=161               cterm=bold
    hi StatusLine      ctermfg=238 ctermbg=253

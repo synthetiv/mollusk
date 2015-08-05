@@ -92,7 +92,7 @@ if &t_Co > 255
    hi TabLineSel      ctermfg=253 ctermbg=238   cterm=none
    hi TabLineFill     ctermfg=237 ctermbg=235   cterm=underline
    hi Tag             ctermfg=161
-   hi Title           ctermfg=51
+   hi Title           ctermfg=159
    hi Todo            ctermfg=231 ctermbg=none  cterm=bold
 
    hi Typedef         ctermfg=81

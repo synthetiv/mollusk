@@ -55,7 +55,7 @@ if &t_Co > 255
    hi Label           ctermfg=229               cterm=none
    hi Macro           ctermfg=193
 
-   hi MatchParen                  ctermbg=236   cterm=bold
+   hi MatchParen                  ctermbg=237   cterm=bold
    hi ModeMsg         ctermfg=229
    hi MoreMsg         ctermfg=229
    hi Operator        ctermfg=161
@@ -73,7 +73,7 @@ if &t_Co > 255
    hi Search          ctermfg=225 ctermbg=89
 
    " marks column
-   hi SignColumn      ctermfg=118 ctermbg=235
+   hi SignColumn      ctermfg=118 ctermbg=234
    hi SpecialChar     ctermfg=161               cterm=bold
    hi SpecialComment  ctermfg=245               cterm=bold
    hi Special         ctermfg=81

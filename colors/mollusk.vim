@@ -40,7 +40,7 @@ if &t_Co > 255
    hi DiffText                    ctermbg=0     cterm=reverse
 
    hi Directory       ctermfg=118               cterm=bold
-   hi Error           ctermfg=231 ctermbg=197
+   hi Error           ctermfg=212 ctermbg=53
    hi ErrorMsg        ctermfg=199 ctermbg=none  cterm=bold
    hi Exception       ctermfg=118               cterm=bold
    hi Float           ctermfg=135

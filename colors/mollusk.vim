@@ -20,39 +20,46 @@ let g:colors_name="mollusk"
 
 
 if &t_Co > 255
-   hi Normal          ctermfg=252
+   let g:mollusk#colors = {}
+   hi Normal          ctermfg=248
+   let g:mollusk#colors.normal = 252
    hi CursorLine                  ctermbg=236   cterm=none
    hi CursorLineNr    ctermfg=212               cterm=none
    hi Boolean         ctermfg=135
    hi Character       ctermfg=159
    hi Number          ctermfg=135
+   let g:mollusk#colors.purple = 135
    hi String          ctermfg=159
+   let g:mollusk#colors.cyan = 159
    hi Conditional     ctermfg=161               cterm=bold
+   let g:mollusk#colors.red = 161
    hi Constant        ctermfg=135               cterm=bold
    hi Cursor          ctermfg=16  ctermbg=239
    hi Debug           ctermfg=225               cterm=bold
    hi Define          ctermfg=81
    hi Delimiter       ctermfg=241
 
-   hi DiffAdd                     ctermbg=0     cterm=reverse
-   hi DiffChange                  ctermbg=235
-   hi DiffDelete      ctermfg=235 ctermbg=0
-   hi DiffText                    ctermbg=0     cterm=reverse
+   hi DiffAdd                     ctermbg=16    cterm=reverse
+   hi DiffChange                  ctermbg=236
+   hi DiffDelete      ctermfg=234 ctermbg=233
+   hi DiffText                    ctermbg=none  cterm=reverse
 
    hi Directory       ctermfg=118               cterm=bold
    hi Error           ctermfg=212 ctermbg=53
    hi ErrorMsg        ctermfg=199 ctermbg=none  cterm=bold
    hi Exception       ctermfg=118               cterm=bold
    hi Float           ctermfg=135
-   hi FoldColumn      ctermfg=24  ctermbg=16
-   hi Folded          ctermfg=24  ctermbg=16
+   hi FoldColumn      ctermfg=24  ctermbg=none
+   hi Folded          ctermfg=24  ctermbg=none
    hi Function        ctermfg=118
    hi Identifier      ctermfg=212
+   let g:mollusk#colors.pink = 212
    hi Ignore          ctermfg=244
    hi IncSearch       ctermfg=225 ctermbg=162   cterm=none
 
    hi Keyword         ctermfg=161               cterm=bold
    hi Label           ctermfg=229               cterm=none
+   let g:mollusk#colors.yellow = 229
    hi Macro           ctermfg=193
 
    hi MatchParen                  ctermbg=237   cterm=bold
@@ -68,9 +75,11 @@ if &t_Co > 255
 
    hi PreCondit       ctermfg=118               cterm=bold
    hi PreProc         ctermfg=118
+   let g:mollusk#colors.green = 118
    hi Question        ctermfg=81
    hi Repeat          ctermfg=161               cterm=bold
    hi Search          ctermfg=225 ctermbg=89
+   hi SearchBlink     ctermfg=89 ctermbg=225    cterm=none
 
    " marks column
    hi SignColumn      ctermfg=118 ctermbg=234
@@ -85,6 +94,7 @@ if &t_Co > 255
    endif
    hi Statement       ctermfg=161               cterm=bold
    hi StatusLine      ctermfg=253 ctermbg=237   cterm=none
+
    hi StatusLineNC    ctermfg=242 ctermbg=235   cterm=none
    hi StorageClass    ctermfg=33
    hi Structure       ctermfg=81
@@ -97,11 +107,12 @@ if &t_Co > 255
 
    hi Typedef         ctermfg=81
    hi Type            ctermfg=81                cterm=none
+   let g:mollusk#colors.blue = 81
    hi Underlined      ctermfg=244               cterm=underline
 
    hi VertSplit       ctermfg=234 ctermbg=none  cterm=bold
-   hi VisualNOS                   ctermbg=239
-   hi Visual                      ctermbg=239
+   hi VisualNOS                   ctermbg=16    cterm=reverse
+   hi Visual                      ctermbg=16    cterm=reverse
    hi WarningMsg      ctermfg=231 ctermbg=238   cterm=bold
    hi WildMenu        ctermfg=81  ctermbg=16
 

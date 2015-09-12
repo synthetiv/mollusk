@@ -23,7 +23,7 @@ if &t_Co > 255
    let s:colors = {}
 
    let s:colors.red =         197
-   hi Conditional     ctermfg=197               cterm=bold
+   hi Conditional     ctermfg=197                 cterm=bold
    hi Keyword         ctermfg=197                 cterm=bold
    hi Operator        ctermfg=197
    hi Repeat          ctermfg=197                 cterm=bold
@@ -32,7 +32,7 @@ if &t_Co > 255
    hi Tag             ctermfg=197
 
    let s:colors.palepink =    225
-   hi Debug           ctermfg=225               cterm=bold
+   hi Debug           ctermfg=225                 cterm=bold
    hi IncSearch       ctermfg=225   ctermbg=162   cterm=none
    hi Search          ctermfg=225   ctermbg=89
    hi SearchBlink     ctermfg=89    ctermbg=225   cterm=none
@@ -50,10 +50,10 @@ if &t_Co > 255
    hi SpellRare       ctermfg=169   ctermbg=none  cterm=underline
 
    let s:colors.xtromagenta = 199
-   hi ErrorMsg        ctermfg=199 ctermbg=none  cterm=bold
+   hi ErrorMsg        ctermfg=199   ctermbg=none  cterm=bold
 
    let s:colors.yellow =      229
-   hi Label           ctermfg=229               cterm=none
+   hi Label           ctermfg=229                 cterm=none
    hi ModeMsg         ctermfg=229
    hi MoreMsg         ctermfg=229
    hi WarningMsg      ctermfg=229
@@ -68,7 +68,7 @@ if &t_Co > 255
 
    let s:colors.green =       118
    hi Exception       ctermfg=118                 cterm=bold
-   hi SignColumn      ctermfg=118 ctermbg=234
+   hi SignColumn      ctermfg=118   ctermbg=234
 
    let s:colors.cyan =        159
    hi Character       ctermfg=159
@@ -82,7 +82,7 @@ if &t_Co > 255
    hi Structure       ctermfg=81
    hi Special         ctermfg=81
    hi Typedef         ctermfg=81
-   hi Type            ctermfg=81                cterm=none
+   hi Type            ctermfg=81                  cterm=none
    hi WildMenu        ctermfg=81    ctermbg=16
    hi Define          ctermfg=81
 
@@ -108,14 +108,14 @@ if &t_Co > 255
    " hush up the quickfix window
    hi qfSeparator     ctermfg=234   ctermbg=234
    hi DiffDelete      ctermfg=234   ctermbg=233
-   hi VertSplit       ctermfg=234 ctermbg=none  cterm=bold
+   hi VertSplit       ctermfg=234   ctermbg=none  cterm=bold
 
    hi CursorLine                    ctermbg=236   cterm=none
    hi DiffChange                    ctermbg=236
-   hi CursorColumn                ctermbg=236
-   hi ColorColumn                 ctermbg=236
+   hi CursorColumn                  ctermbg=236
+   hi ColorColumn                   ctermbg=236
 
-   hi LineNr          ctermfg=237 ctermbg=234
+   hi LineNr          ctermfg=237   ctermbg=234
    hi TabLineFill     ctermfg=237   ctermbg=235   cterm=underline
    hi MatchParen                    ctermbg=237   cterm=bold
 
@@ -164,18 +164,19 @@ end
 
 
 " fix some very strange hilinks in 3rd-party syntax files
-hi link htmlTag Statement
-hi link htmlEndTag Statement
-hi link htmlTagName Statement
+
+hi link htmlTag            Statement
+hi link htmlEndTag         Statement
+hi link htmlTagName        Statement
 hi link htmlSpecialTagName Label
 
-hi link jsAssignExpIdent Identifier
+hi link jsAssignExpIdent   Identifier
 
-hi link Noise Delimiter
+hi link Noise              Delimiter
 
-hi link netrwClassify NonText
+hi link netrwClassify      NonText
 
-hi link vimOption Constant
+hi link vimOption          Identifier
 
 
 " export

@@ -31,15 +31,21 @@ if &t_Co > 255
    hi Statement       ctermfg=197                 cterm=bold
    hi Tag             ctermfg=197
 
+   let s:colors.winered =     125
+
+   let s:colors.maroon =      89
+   hi Search          ctermfg=225   ctermbg=89
+   hi SearchBlink     ctermfg=89    ctermbg=225   cterm=none
+
    let s:colors.palepink =    225
    hi Debug           ctermfg=225                 cterm=bold
    hi IncSearch       ctermfg=225   ctermbg=162   cterm=none
-   hi Search          ctermfg=225   ctermbg=89
-   hi SearchBlink     ctermfg=89    ctermbg=225   cterm=none
 
    let s:colors.pink =        212
    hi CursorLineNr    ctermfg=212                 cterm=none
    hi Error           ctermfg=212   ctermbg=53
+
+   let s:colors.deeppink =    206
 
    let s:colors.palemagenta = 219
    hi Identifier      ctermfg=219
@@ -70,10 +76,14 @@ if &t_Co > 255
    hi Exception       ctermfg=118                 cterm=bold
    hi SignColumn      ctermfg=118   ctermbg=234
 
+   let s:colors.creamgreen =  48
+
    let s:colors.cyan =        159
    hi Character       ctermfg=159
    hi String          ctermfg=159
    hi Title           ctermfg=159
+
+   let s:colors.deepcyan =    45
 
    let s:colors.blue =        81
    hi PmenuSel        ctermfg=81    ctermbg=235

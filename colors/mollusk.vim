@@ -56,13 +56,13 @@ if &t_Co > 255
    hi SpellRare       ctermfg=169   ctermbg=none  cterm=underline
 
    let s:colors.xtromagenta = 199
-   hi ErrorMsg        ctermfg=199   ctermbg=none  cterm=bold
 
    let s:colors.yellow =      229
    hi Label           ctermfg=229                 cterm=none
    hi ModeMsg         ctermfg=229
    hi MoreMsg         ctermfg=229
    hi WarningMsg      ctermfg=229
+   hi ErrorMsg        ctermfg=229   ctermbg=none  cterm=none
 
    let s:colors.paleyellow =  193
    hi Macro           ctermfg=193

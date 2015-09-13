@@ -14,7 +14,7 @@ let g:airline#themes#mollusk#palette.normal = airline#themes#generate_color_map(
     \ [ '', '', 249, 238 ] )
 let g:airline#themes#mollusk#palette.normal.airline_warning = s:airline_warning
 let g:airline#themes#mollusk#palette.normal_modified = {
-    \ 'airline_a': [ '', '', 125,  '', '' ] ,
+    \ 'airline_a': [ '', '', 126,  '', '' ] ,
     \ 'airline_b': [ '', '',  53, 169, '' ] ,
     \ 'airline_c': [ '', '', 212,  89, '' ] ,
     \ 'airline_x': [ '', '', 212,  89, '' ] ,

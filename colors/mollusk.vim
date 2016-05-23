@@ -67,9 +67,10 @@ if &t_Co > 255
    let s:colors.paleyellow =  193
    hi Macro           ctermfg=193
 
-   let s:colors.palegreen =   119
-   hi PreCondit       ctermfg=119                 cterm=bold
-   hi PreProc         ctermfg=119
+   let s:colors.palegreen =   120
+   hi Function        ctermfg=120
+   hi PreCondit       ctermfg=120                 cterm=bold
+   hi PreProc         ctermfg=120
 
    let s:colors.green =       118
    hi Exception       ctermfg=118                 cterm=bold

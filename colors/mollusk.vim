@@ -23,12 +23,12 @@ if &t_Co > 255
    let s:colors = {}
 
    let s:colors.red =         197
-   hi Conditional     ctermfg=197                 cterm=bold
-   hi Keyword         ctermfg=197                 cterm=bold
+   hi Conditional     ctermfg=197                 cterm=none
+   hi Keyword         ctermfg=197                 cterm=none
    hi Operator        ctermfg=197
-   hi Repeat          ctermfg=197                 cterm=bold
-   hi SpecialChar     ctermfg=197                 cterm=bold
-   hi Statement       ctermfg=197                 cterm=bold
+   hi Repeat          ctermfg=197                 cterm=none
+   hi SpecialChar     ctermfg=197                 cterm=none
+   hi Statement       ctermfg=197                 cterm=none
    hi Tag             ctermfg=197
 
    let s:colors.winered =     125
@@ -48,7 +48,7 @@ if &t_Co > 255
    let s:colors.deeppink =    206
 
    let s:colors.palemagenta = 219
-   hi Identifier      ctermfg=219
+   hi Identifier      ctermfg=219                 cterm=none
 
    let s:colors.softmagenta = 169
    hi SpellBad        ctermfg=169   ctermbg=none  cterm=underline
@@ -68,7 +68,6 @@ if &t_Co > 255
    hi Macro           ctermfg=193
 
    let s:colors.palegreen =   119
-   hi Function        ctermfg=119
    hi PreCondit       ctermfg=119                 cterm=bold
    hi PreProc         ctermfg=119
 
@@ -86,6 +85,7 @@ if &t_Co > 255
    let s:colors.deepcyan =    45
 
    let s:colors.blue =        81
+   hi Function        ctermfg=81
    hi PmenuSel        ctermfg=81    ctermbg=235
    hi PmenuThumb      ctermfg=81    ctermbg=81
    hi Question        ctermfg=81
@@ -109,7 +109,7 @@ if &t_Co > 255
    let s:colors.purple =      135
    hi Boolean         ctermfg=135
    hi Number          ctermfg=135
-   hi Constant        ctermfg=135                 cterm=bold
+   hi Constant        ctermfg=135                 cterm=none
    hi Float           ctermfg=135
 
    " grays
@@ -171,22 +171,6 @@ if &t_Co > 255
    hi SpellCap        ctermfg=none  ctermbg=none  cterm=none
 
 end
-
-
-" fix some very strange hilinks in 3rd-party syntax files
-
-hi link htmlTag            Statement
-hi link htmlEndTag         Statement
-hi link htmlTagName        Statement
-hi link htmlSpecialTagName Label
-
-hi link jsAssignExpIdent   Identifier
-
-hi link Noise              Delimiter
-
-hi link netrwClassify      NonText
-
-hi link vimOption          Identifier
 
 
 " export

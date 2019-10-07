@@ -130,7 +130,7 @@ if &t_Co > 255
    hi TabLineFill     ctermfg=237   ctermbg=235   cterm=underline
    hi MatchParen                    ctermbg=237   cterm=bold
 
-   hi Comment         ctermfg=238
+   hi Comment         ctermfg=241
 
    hi Cursor          ctermfg=16    ctermbg=239  | " not so sure this does anything
 

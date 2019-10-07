@@ -124,7 +124,8 @@ if &t_Co > 255
    hi CursorLine                    ctermbg=236   cterm=none
    hi DiffChange                    ctermbg=236
    hi CursorColumn                  ctermbg=236
-   hi ColorColumn                   ctermbg=236
+
+   hi ColorColumn                   ctermbg=233
 
    hi LineNr          ctermfg=237   ctermbg=234
    hi TabLineFill     ctermfg=237   ctermbg=235   cterm=underline

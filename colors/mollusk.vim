@@ -87,7 +87,7 @@ if &t_Co > 255
 
    let s:colors.blue =        81
    hi Function        ctermfg=81
-   hi PmenuSel        ctermfg=81    ctermbg=235
+   hi PmenuSel        ctermfg=81    ctermbg=235   cterm=reverse
    hi PmenuThumb      ctermfg=81    ctermbg=81
    hi Question        ctermfg=81
    hi Structure       ctermfg=81
@@ -104,8 +104,9 @@ if &t_Co > 255
    let s:colors.nonblue =     24
    hi FoldColumn      ctermfg=24    ctermbg=none
    hi Folded          ctermfg=24    ctermbg=none
-   hi NonText         ctermfg=24
    hi SpecialKey      ctermfg=24
+
+   hi NonText         ctermfg=236
 
    let s:colors.purple =      135
    hi Boolean         ctermfg=135
@@ -131,15 +132,15 @@ if &t_Co > 255
    hi TabLineFill     ctermfg=237   ctermbg=235   cterm=underline
    hi MatchParen                    ctermbg=237   cterm=bold
 
-   hi Comment         ctermfg=241
+   hi Comment         ctermfg=242   cterm=italic  gui=italic
 
    hi Cursor          ctermfg=16    ctermbg=239  | " not so sure this does anything
 
-   hi Delimiter       ctermfg=241
-   hi qfLineNr        ctermfg=241   ctermbg=234
+   hi Delimiter       ctermfg=242
+   hi qfLineNr        ctermfg=242   ctermbg=234
 
-   hi StatusLineNC    ctermfg=242   ctermbg=235   cterm=none
-   hi TabLine         ctermfg=242   ctermbg=235   cterm=underline
+   hi StatusLineNC    ctermfg=241   ctermbg=235   cterm=none
+   hi TabLine         ctermfg=241   ctermbg=235   cterm=underline
 
    hi Ignore          ctermfg=244
    hi Underlined      ctermfg=244                 cterm=underline
@@ -149,18 +150,22 @@ if &t_Co > 255
    let s:colors.normal =      248
    hi Normal          ctermfg=248
 
+   hi NormalFloat     ctermfg=248   ctermbg=16
+   hi FloatBorder     ctermfg=238   ctermbg=none
+
    hi StatusLine      ctermfg=253   ctermbg=237   cterm=none
    hi TabLineSel      ctermfg=253   ctermbg=238   cterm=none
 
    " black
-   hi Pmenu           ctermfg=none  ctermbg=16
-   hi PmenuSbar                     ctermbg=16
-   hi VisualNOS                     ctermbg=16    cterm=reverse
-   hi Visual                        ctermbg=16    cterm=reverse
+   hi Pmenu           ctermfg=none  ctermbg=236   cterm=none
+   hi PmenuSbar       ctermfg=none  ctermbg=236   cterm=none
+
+   hi VisualNOS       ctermfg=none  ctermbg=236   cterm=none
+   hi Visual          ctermfg=none  ctermbg=238   cterm=none
 
    " reversal
-   hi DiffAdd                       ctermbg=16    cterm=reverse
-   hi DiffText                      ctermbg=none  cterm=reverse
+   hi DiffAdd         ctermfg=none  ctermbg=16    cterm=reverse
+   hi DiffText        ctermfg=none  ctermbg=16    cterm=reverse
 
    " ANSI primaries to match git diff colors
    hi diffLine        ctermfg=6

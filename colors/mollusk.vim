@@ -141,6 +141,7 @@ if &t_Co > 255
 
    hi StatusLineNC    ctermfg=241   ctermbg=235   cterm=none
    hi TabLine         ctermfg=241   ctermbg=235   cterm=underline
+   hi WinSeparator    ctermfg=235
 
    hi Ignore          ctermfg=244
    hi Underlined      ctermfg=244                 cterm=underline

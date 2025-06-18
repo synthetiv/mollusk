@@ -151,8 +151,8 @@ if &t_Co > 255
    let s:colors.normal =      248
    hi Normal          ctermfg=248
 
-   hi NormalFloat     ctermfg=248   ctermbg=16
-   hi FloatBorder     ctermfg=238   ctermbg=none
+   hi NormalFloat     ctermfg=248   ctermbg=236
+   hi FloatBorder     ctermfg=238   ctermbg=236
 
    hi StatusLine      ctermfg=253   ctermbg=237   cterm=none
    hi TabLineSel      ctermfg=253   ctermbg=238   cterm=none
